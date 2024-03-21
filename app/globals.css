@@ -26,8 +26,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.card {
+  @apply mb-5 block rounded-lg border border-gray-200 shadow-md;
+}
+.cart-badge {
+  @apply absolute font-bold text-orange-600 ml-8 mt-0 text-center w-4;
 }
